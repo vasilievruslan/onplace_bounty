@@ -133,6 +133,14 @@
 	}
 
 }
+
+.link{
+	text-decoration: none;
+	color: #1e9df2;
+	&:hover{
+		text-decoration: underline;
+	}
+}
 @media screen and (max-width:740px) {
 	// #filter_Presentations{
 	// 	display: none;

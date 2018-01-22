@@ -757,6 +757,12 @@ body.blur {
   .press__articles .article__text {
     font-weight: 300; }
 
+.link {
+  text-decoration: none;
+  color: #1e9df2; }
+  .link:hover {
+    text-decoration: underline; }
+
 @media screen and (max-width: 740px) {
   .press__filters {
     padding: 10px 30px !important; }

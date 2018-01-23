@@ -7,10 +7,13 @@
 }
 
 .diagram {
-		margin: 0 auto;
-		margin-bottom: 60px;
-		text-align: center;
+	margin: 0 auto;
+	margin-bottom: 60px;
+	text-align: center;
+	img{
+		max-width: 95vw;
 	}
+}
 
 .boldfont {
 	font-weight: bold;
@@ -161,6 +164,8 @@
 			border-bottom: 1px solid #1e9df2;
 			.article__logo{
 				left: -48px;
+				top: 0;
+				position: relative;
 			}
 			.article__time{
 				padding: 35px 100px;
